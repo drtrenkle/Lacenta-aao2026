@@ -6,7 +6,8 @@
    - Leave a value as "" to keep it as a placeholder.
    ===================================================================== */
 window.SITE_CONFIG = {
-  showFlags: true,
+  showFlags: false,          // false = clean view (no amber chips). true = review mode.
+  keepEmptyButtons: true,    // DRAFT: keep buttons visible even if their link isn't set yet. Set to false when publishing live.
 
   links: {
     investorForm:     "",  // PLACEHOLDER: Google Form / Typeform for investors & strategic partners

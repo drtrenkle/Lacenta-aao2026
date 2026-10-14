@@ -26,10 +26,9 @@
     } else {
       el.setAttribute('href', '#');
       el.setAttribute('aria-disabled', 'true');
-      el.classList.add('is-placeholder');
       el.addEventListener('click', function (e) { e.preventDefault(); });
-      if (flagsOn) chip(el, 'Link: ' + key, 'No URL set for "' + key + '" in config.js', 'link');
-      else { review.push({ kind: 'link', label: 'Link: ' + key, note: 'missing' }); el.hidden = true; }
+      if (flagsOn) { el.classList.add('is-placeholder'); chip(el, 'Link: ' + key, 'No URL set for "' + key + '" in config.js', 'link'); }
+      else { review.push({ kind: 'link', label: 'Link: ' + key, note: 'missing' }); if (!S.keepEmptyButtons) el.hidden = true; }
     }
   });
 
