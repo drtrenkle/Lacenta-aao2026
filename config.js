@@ -13,7 +13,7 @@ window.SITE_CONFIG = {
     investorForm:     "",  // PLACEHOLDER: Google Form / Typeform for investors & strategic partners
     practiceForm:     "",  // PLACEHOLDER: Google Form / Typeform for practice owners
     careers:          "",  // PLACEHOLDER: existing recruitment / careers page
-    clashmoreWebsite: "",  // PLACEHOLDER: Clashmore website (Geoff asked for this)
+    clashmoreWebsite: "https://www.clashmore.vc/",
     investorOverview: ""   // OPTIONAL: investor overview PDF/page (flyer promises "our investor overview")
   },
 
@@ -26,7 +26,7 @@ window.SITE_CONFIG = {
 
   clashmore: {
     name: "Clashmore",
-    description: "",       // PLACEHOLDER: who Clashmore is and its relationship to LACENTA (not stated in the meeting)
+    description: "Clashmore is our venture capital partner.",
     contactName: "",       // PLACEHOLDER
     contactEmail: "",      // PLACEHOLDER
     contactPhone: ""       // PLACEHOLDER
@@ -40,21 +40,17 @@ window.SITE_CONFIG = {
     website: "www.socalent.com"
   },
 
-  // Numbers copied EXACTLY as printed on the flyers. Do not "fix" them here until confirmed.
+  // Confirmed by Geoff: 20+ locations, 150,000+ patient visits, 12+ years.
   stats: {
     locations: "20+",
     providers: "50+",
     payerContracts: "145+",
-    patientVisits: "150.300+",
+    patientVisits: "150,000+",
     yearsInPractice: "12+"
   },
 
   // Items to confirm before publishing. Shown as amber chips + in the review panel. Delete a line once confirmed.
   flags: {
-    patientVisits:  "Investor flyer prints \"150.300+\" — looks like a typo. Confirm the real figure (e.g. 150,300+).",
-    locations:      "Headline stat says 20+ on all three flyers, but the card text says \"19+ locations\" (investor + careers flyers). Pick one.",
-    locationsCard:  "This card says 19+ while the headline stat says 20+. Kept as printed on the flyer.",
-    yearsInPractice:"\"12+ years in practice\" appears only on the careers flyer. Confirm what it refers to.",
     capitalBacked:  "Flyer wording kept. Geoff asked for \"currently/already institutionally or financially backed\" plus a short description of the best practices in place (financial books, etc.).",
     msoOperator:    "\"Proven MSO Operator\" — confirm Geoff is comfortable with this claim for investors.",
     investorOverview:"Flyer promises an \"investor overview\". Is there a PDF/page to link?",

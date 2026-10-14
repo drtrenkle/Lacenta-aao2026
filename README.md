@@ -18,3 +18,8 @@ With flags off, buttons and blocks that still have no link or content are hidden
 5. iMessage previews: change `og:image` in index.html to the full URL of `assets/og-image.png`.
 
 The page has `noindex` so it is not listed in search engines. Remove that line in index.html if you want it listed.
+
+## Hand-off to the web developer (socalent.com/platform)
+This is a static folder. Upload the whole folder (keep `assets/`) to `/platform` on the main site. No build step.
+Before going live: set `keepEmptyButtons: false`; update `og:image` in index.html to the full URL of `assets/og-image.png`; remove the `noindex` line if the page should be searchable.
+Fallback if the folder can't live under /platform: point a subdomain (e.g. platform.socalent.com) at GitHub Pages with a CNAME.

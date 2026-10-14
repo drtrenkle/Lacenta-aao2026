@@ -2,7 +2,7 @@
 Use one page, three deep links: `[URL]#investors`, `[URL]#practices`, `[URL]#careers`
 
 ## Investors / strategic partners
-Hi [Name], great meeting you at AAO-HNSF. LACENTA is a scaled, multi-payer ENT & allergy group in Southern California with the infrastructure to grow. Platform overview here: [URL]#investors. [CLASHMORE LINE: add once confirmed, with Clashmore website and contact.] Happy to find time to talk. - Geoff
+Hi [Name], great meeting you at AAO-HNSF. LACENTA is a scaled, multi-payer ENT & allergy group in Southern California with the infrastructure to grow. Platform overview here: [URL]#investors. Clashmore, our venture capital partner: https://www.clashmore.vc/ Happy to find time to talk. - Geoff
 
 ## Practice owners
 Hi [Name], good to meet you at AAO-HNSF. The SOCAL ENT Network lets your practice keep its autonomy while using LACENTA's payer contracting, billing, marketing and AI-enabled operations. Details: [URL]#practices. Would love to set up a conversation. - Geoff

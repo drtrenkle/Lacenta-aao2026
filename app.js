@@ -28,7 +28,7 @@
       el.setAttribute('aria-disabled', 'true');
       el.addEventListener('click', function (e) { e.preventDefault(); });
       if (flagsOn) { el.classList.add('is-placeholder'); chip(el, 'Link: ' + key, 'No URL set for "' + key + '" in config.js', 'link'); }
-      else { review.push({ kind: 'link', label: 'Link: ' + key, note: 'missing' }); if (!S.keepEmptyButtons) el.hidden = true; }
+      else { review.push({ kind: 'link', label: 'Link: ' + key, note: 'missing' }); if (!S.keepEmptyButtons || el.hasAttribute('data-optional')) el.hidden = true; }
     }
   });
 
