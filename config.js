@@ -10,9 +10,9 @@ window.SITE_CONFIG = {
   keepEmptyButtons: true,    // DRAFT: keep buttons visible even if their link isn't set yet. Set to false when publishing live.
 
   links: {
-    investorForm:     "",  // PLACEHOLDER: Google Form / Typeform for investors & strategic partners
-    practiceForm:     "",  // PLACEHOLDER: Google Form / Typeform for practice owners
-    careers:          "",  // PLACEHOLDER: existing recruitment / careers page
+    investorForm:     "https://forms.gle/h3mAjvk526f5Ueik9",  // PLACEHOLDER: Google Form / Typeform for investors & strategic partners
+    practiceForm:     "https://forms.gle/2TkFJ7acPE3rpArb8",  // PLACEHOLDER: Google Form / Typeform for practice owners
+    careers:          "https://www.laent.com/about/our-practice/careers/",  // PLACEHOLDER: existing recruitment / careers page
     clashmoreWebsite: "https://www.clashmore.vc/",
     investorOverview: ""   // OPTIONAL: investor overview PDF/page (flyer promises "our investor overview")
   },
